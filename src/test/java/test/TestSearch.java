@@ -16,7 +16,7 @@ public class TestSearch extends WebDriverManager {
     @Test
     public void testSearch() {
         new GooglePage(driver).clickSearchButton();
-        Assert.assertEquals(driver.getTitle(), "Google");
+        Assert.assertEquals(driver.getTitle(), "SeleniumHQ - Buscar con Google");
     }
 
     @Test

@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="85ae4ac2-5f02-40a0-b7a8-c755bfa125a1" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/GooglePage.java" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/GooglePage.java" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pageobjects/GoogleSearchResult.java" afterPath="$PROJECT_DIR$/src/test/java/pageobjects/GoogleSearchResult.java" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/TestSearch.java" afterPath="$PROJECT_DIR$/src/test/java/test/TestSearch.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/WebDriverManager.java" afterPath="$PROJECT_DIR$/src/test/java/utilities/WebDriverManager.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -30,12 +30,22 @@
       <file leaf-file-name="GooglePage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/GooglePage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+            <state relative-caret-position="339">
+              <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#505#644#1" expanded="true" />
+                <element signature="e#538#677#1" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebDriverManager.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/utilities/WebDriverManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -53,18 +63,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestSearch.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestSearch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/test/TestSearch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="315">
+              <caret line="18" column="71" lean-forward="false" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#274#275#0" expanded="true" />
                 <element signature="e#304#321#0" expanded="true" />
                 <element signature="e#338#339#0" expanded="true" />
                 <element signature="e#462#479#0" expanded="true" />
-                <element signature="e#636#653#0" expanded="true" />
+                <element signature="e#660#677#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,10 +116,10 @@
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/HomePage.java" />
         <option value="$PROJECT_DIR$/TestNGFile.tld" />
         <option value="$PROJECT_DIR$/src/test/java/test/TestGoogle.java" />
-        <option value="$PROJECT_DIR$/src/test/java/utilities/WebDriverManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/GoogleSearchResult.java" />
         <option value="$PROJECT_DIR$/src/test/java/pageobjects/GooglePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/test/TestSearch.java" />
+        <option value="$PROJECT_DIR$/src/test/java/utilities/WebDriverManager.java" />
       </list>
     </option>
   </component>
@@ -182,7 +192,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pageobjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qaAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qaAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qaAutomation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qaAutomation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.TestSearch">
+  <component name="RunManager" selected="TestNG.TestSearch.testSearch">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -422,9 +448,9 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.TestSearch" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.TestSearch.testSeleniumLink" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.TestSearch.testSearch" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.TestSearch.testSearch" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.TestSearch" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.TestSearch.testSeleniumLink" />
       </list>
     </recent_temporary>
   </component>
@@ -446,7 +472,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1518646630810</updated>
-      <workItem from="1518646637054" duration="7557000" />
+      <workItem from="1518646637054" duration="9081000" />
     </task>
     <servers />
   </component>
@@ -463,16 +489,16 @@
     <history-entry file="TestSearch - 2018.02.14 at 21h 48m 06s.xml">
       <configuration name="TestSearch" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSearch_testSearch - 2018.02.14 at 20h 44m 56s.xml">
+    <history-entry file="TestSearch - 2018.02.14 at 22h 02m 10s.xml">
+      <configuration name="TestSearch" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestSearch - 2018.02.14 at 22h 11m 50s.xml">
+      <configuration name="TestSearch" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="TestSearch_testSearch - 2018.02.14 at 22h 12m 49s.xml">
       <configuration name="TestSearch.testSearch" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="TestSearch_testSearch - 2018.02.14 at 20h 53m 37s.xml">
-      <configuration name="TestSearch.testSearch" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestSearch_testSearch - 2018.02.14 at 21h 21m 41s.xml">
-      <configuration name="TestSearch.testSearch" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="TestSearch_testSearch - 2018.02.14 at 21h 38m 36s.xml">
+    <history-entry file="TestSearch_testSearch - 2018.02.14 at 22h 13m 26s.xml">
       <configuration name="TestSearch.testSearch" configurationId="TestNG" />
     </history-entry>
     <history-entry file="TestSearch_testSeleniumLink - 2018.02.14 at 21h 39m 06s.xml">
@@ -483,7 +509,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7557000" />
+    <option name="totallyTimeSpent" value="9081000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -539,24 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/WebDriverManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="5" column="43" lean-forward="true" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-          <folding>
-            <element signature="e#551#623#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TestNGFile.tld">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -567,11 +575,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pageobjects/GooglePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
+        <state relative-caret-position="339">
+          <caret line="24" column="19" lean-forward="false" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#505#644#1" expanded="true" />
+            <element signature="e#538#677#1" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -589,16 +597,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test/TestSearch.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="315">
+          <caret line="18" column="71" lean-forward="false" selection-start-line="18" selection-start-column="71" selection-end-line="18" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#274#275#0" expanded="true" />
             <element signature="e#304#321#0" expanded="true" />
             <element signature="e#338#339#0" expanded="true" />
             <element signature="e#462#479#0" expanded="true" />
-            <element signature="e#636#653#0" expanded="true" />
+            <element signature="e#660#677#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="25" column="33" lean-forward="false" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/utilities/WebDriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="47" lean-forward="false" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
+          <folding />
         </state>
       </provider>
     </entry>
