@@ -22,7 +22,7 @@ public class TestSearch extends WebDriverManager {
     @Test
     public void testSeleniumLink(){
         new GoogleSearchResult(driver).seleniumSearchResult();
-        Assert.assertEquals(driver.getTitle(), "SeleniumHQ");
+        Assert.assertEquals(driver.getTitle(), "Selenium - Web Browser Automation");
     }
 
 }

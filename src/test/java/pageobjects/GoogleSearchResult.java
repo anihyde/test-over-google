@@ -9,7 +9,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class GoogleSearchResult {
 
     WebDriver driver;
-    By seleniumLink = By.linkText("Selenium Documentation — Selenium Documentation");
+    By seleniumLink = By.linkText("Selenium - Web Browser Automation");
 
     public GoogleSearchResult(WebDriver driver)  {
         this.driver = driver;

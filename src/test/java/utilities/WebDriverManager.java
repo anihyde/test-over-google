@@ -20,10 +20,10 @@ public class WebDriverManager {
         driver.get("http://www.google.com");
     }
 
-   @AfterTest
-     public void tearDown(){
-        driver.quit();
+   //@AfterTest
+   //  public void tearDown(){
+    //    driver.quit();
 
-    }
+    //}
 
 }
