@@ -2,6 +2,9 @@ package pageobjects;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class GooglePage {
 
@@ -12,9 +15,12 @@ public class GooglePage {
             this.driver = driver;
         }
 
-        public GooglePage clickSearchButton()  {
-            driver.findElement(searchButton).sendKeys("SeleniumHQ");
-            driver.findElement(searchButton).click();
+        public GooglePage clickSearchButton() {
+            WebElement inputBox = (new WebDriverWait(driver, 5))
+                    .until(ExpectedConditions.presenceOfElementLocated(searchButton));
+            driver.findElement(searchButton);
+            inputBox.sendKeys("SeleniumHQ");
+            inputBox.click();
             return  this;
         }
 
